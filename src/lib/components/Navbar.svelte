@@ -39,9 +39,8 @@
 		position: sticky;
 		top: 0;
 		z-index: 10;
-		background: color-mix(in srgb, var(--color-bg) 92%, transparent);
-		backdrop-filter: blur(10px);
-		border-bottom: 1px solid var(--color-border);
+		background: #000;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 	}
 
 	.inner {
@@ -60,7 +59,7 @@
 		font-size: 1.125rem;
 		letter-spacing: 0.04em;
 		text-decoration: none;
-		color: var(--color-ink);
+		color: #fafaf8;
 	}
 
 	.brand:hover {
@@ -80,7 +79,7 @@
 		text-transform: uppercase;
 		letter-spacing: 0.14em;
 		text-decoration: none;
-		color: var(--color-ink-muted);
+		color: rgba(250, 250, 248, 0.55);
 		padding-bottom: 2px;
 		border-bottom: 1px solid transparent;
 		transition:
@@ -89,12 +88,12 @@
 	}
 
 	.link:hover {
-		color: var(--color-ink);
+		color: #fafaf8;
 		text-decoration: none;
 	}
 
 	.link.active {
-		color: var(--color-ink);
-		border-bottom-color: var(--color-ink);
+		color: #fafaf8;
+		border-bottom-color: #fafaf8;
 	}
 </style>
